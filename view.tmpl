@@ -1,0 +1,16 @@
+<% c++ #include "upload.h" %>
+<% skin view %>
+<% view upload uses content::upload %>
+<% template render() %>
+<html>
+   <body style="background-color:#D8D8D8 ">
+    <form method="post" action="" enctype="multipart/form-data" >
+    <% form as_p info %>
+    </form>
+   <iframe src="/uploads/" width='800' height='600' >Uploaded Files</iframe>
+  </body>
+<html>
+<% end template %>
+<% end view %>
+<% end skin %>
+
