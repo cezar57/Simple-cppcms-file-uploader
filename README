@@ -5,6 +5,8 @@ Afterwards type : make uploader (if it is the first use) or make all (if you use
 
 The uploader needs a directory called uploads and it creats it once you run the Makefile and there is where the uploaded files are stored.
 
+Then type in the terminal ./config -c config.js and keep the terminal instance opened.
+
 You can then open a web browser(ie. Google Chrome) and type http://localhost:8080/uploader
 
 Once you're there you can browse for files in your computer and choose the name you want them to appear with.
